@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+}
+nav h3{
+    display: block;
+    margin-left: 10px;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
