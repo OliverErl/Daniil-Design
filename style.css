@@ -28,7 +28,7 @@ li a{
 }
 #gort{
     border-radius: 50%;
-    height: 400px;
+    height: 50vh;
 }
 #gort-container{
     background-color: black;
@@ -43,7 +43,7 @@ li a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15%;
+    gap: 13%;
     height: 100%;
 }
 #text-container{
@@ -51,6 +51,36 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Anpassningar för skärmar mindre än 768px */
+@media (max-width: 768px) {
+    #gort-container {
+        width: 100%; /* Gör containern bredare på små skärmar */
+        height:40vh; /* Anpassa höjden automatiskt */
+    }
+    #gort {
+        height: 30vh; /* Minska höjden på gort */
+    }
+
+    #BIG-boy {
+        flex-direction: column; /* Ändra layouten till kolumn */
+        gap: 5%; /* Minska gapet mellan elementen */
+    }
+
+    nav {
+        flex-direction: column; /* Gör navigationen vertikal */
+        align-items: flex-start; /* Justera innehållet till vänster */
+    
+    }
+
+    li {
+        justify-content: center; /* Centrera länkarna */
+    }
+
+    #text-container {
+        padding: 10px; /* Lägg till lite padding för bättre läsbarhet */
+    }
 }
 
 
