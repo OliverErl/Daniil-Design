@@ -21,10 +21,15 @@ li{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-}
-li a{
+    a{
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    }
+    a:hover{
+        color: pink;
+    }
 }
 #gort{
     border-radius: 50%;
